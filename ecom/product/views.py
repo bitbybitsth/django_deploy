@@ -18,7 +18,6 @@ def get_products(request):
         return render(
             request, "index.html", {"msg": "Welcome", "all_products": all_products}
         )
-    return
     return render(
         request, "index.html", {"msg": "No Data in records", "all_prodcuts": []}
     )
